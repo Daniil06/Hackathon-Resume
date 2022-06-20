@@ -1,0 +1,148 @@
+.header {
+  max-width: 1400px;
+  padding: 15px;
+  display: flex;
+}
+.sec1 {
+  width: 40%;
+  background-color: rgb(39, 39, 217);
+  border-radius: 20px;
+}
+.nav__img {
+  text-align: center;
+}
+.nav__photo {
+  width: 50%;
+  border-radius: 50%;
+}
+nav h3 {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul li + li {
+  padding-top: 20px;
+}
+.features,
+.footer {
+  margin-top: 125px;
+}
+.features ol,
+footer ul {
+  margin-top: 60px;
+}
+.features h3 {
+  display: flex;
+  justify-content: center;
+}
+.features p {
+  color: white;
+}
+.features ol {
+  list-style-type: circle;
+}
+.footer h3 {
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  color: white;
+}
+
+/* !============= start section two =================  */
+
+.content {
+  width: 60%;
+  background-color: white;
+}
+h2 {
+  color: #0000ff85;
+}
+h3 {
+  color: black;
+  font-weight: inherit;
+}
+h4 {
+  color: #00000063;
+  font-weight: inherit;
+}
+.content__personalData p,
+.content__experience li,
+.content__education li {
+  line-height: 1.5;
+}
+.content__name {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  font-size: 65px;
+  color: blue;
+}
+hr {
+  width: 335px;
+}
+.content__position {
+  display: flex;
+  justify-content: center;
+}
+.content__personalData {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.content__experience {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.content__education {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+/* !==================== finish section two ================== */
+
+@media all and (max-width: 980px) {
+  .content__name {
+    font-size: 40px;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  .content__personalData,
+  .content__experience,
+  .content__education {
+    width: 70%;
+    padding-left: 10px;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  .features ol,
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+@media all and (max-width: 640px) {
+  .content__name {
+    font-size: 20px;
+  }
+  .content h2 {
+    font-size: 15px;
+  }
+  .content__personalData,
+  .content__experience,
+  .content__education {
+    width: 60%;
+    padding-left: 10px;
+  }
+}
